@@ -1,0 +1,41 @@
+.card{
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+}
+.card2{
+      border-radius: 20px;
+      background-color: #8ab854;
+
+}
+.title-banner{
+      text-align: center;
+}
+.products{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+     padding: 10px;
+}
+p{
+      font-size: 20px;
+      color:white;
+      margin: 5px;
+}
+.scrollingMenu{
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 5px;
+      display: flex;
+      justify-content: space-evenly;
+      border: 1px solid rgb(202,80,92);
+      border-radius: 20px;
+      background-color: rgb(202,80,92);
+}
+a{
+      color: white;
+      font-size: 20px;
+      font-family: 'Nunito', sans-serif;
+}

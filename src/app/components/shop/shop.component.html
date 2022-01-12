@@ -1,0 +1,80 @@
+<div class="scrollingMenu">
+      <a pageScroll href="#fruits">Fruits</a>
+      <a pageScroll href="#vegetables">Vegetables</a>
+      <a pageScroll href="#dairy">Dairy</a>
+      <a pageScroll href="#sweets">Sweets</a>
+      <a pageScroll href="#grocery">Grocery</a>
+</div>
+      
+
+<div class="card card2" id="fruits">
+      <div class="title-banner">
+            <p >F R U I T S</p>
+      </div>
+      
+</div>
+
+<div class="card products " >
+     <div  *ngFor="let p of fruits">
+      <app-card [name]="p.name" [price]="p.price" [imagePath]="p.imagePath" ></app-card>
+
+     </div>
+
+</div>
+<div class="card card2" id="vegetables">
+      <div class="title-banner">
+            <p >V E G E T A B L E S</p>
+      </div>
+      
+</div>
+
+<div class="card products " >
+     <div  *ngFor="let p of vegetables">
+      <app-card [name]="p.name" [price]="p.price" [imagePath]="p.imagePath" ></app-card>
+
+     </div>
+
+</div>
+<div class="card card2" id="dairy">
+      <div class="title-banner">
+            <p  >D A I R Y</p>
+      </div>
+      
+</div>
+<div class="card products " >
+      <div  *ngFor="let p of dairy">
+       <app-card [name]="p.name" [price]="p.price" [imagePath]="p.imagePath" ></app-card>
+ 
+      </div>
+ 
+ </div>
+ <div class="card card2" id="sweets">
+      <div class="title-banner">
+            <p>S W E E T S</p>
+      </div>
+      
+</div>
+<div class="card products " >
+      <div  *ngFor="let p of sweets">
+       <app-card [name]="p.name" [price]="p.price" [imagePath]="p.imagePath" ></app-card>
+ 
+      </div>
+ 
+ </div>
+
+ <div class="card card2" id="grocery">
+      <div class="title-banner">
+            <p >G R O C E R Y</p>
+      </div>
+      
+</div>
+<div class="card products " >
+      <div  *ngFor="let p of grocery">
+       <app-card [name]="p.name" [price]="p.price" [imagePath]="p.imagePath" ></app-card>
+ 
+      </div>
+ 
+ </div>
+
+
+

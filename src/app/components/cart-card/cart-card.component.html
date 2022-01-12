@@ -1,0 +1,17 @@
+ <div class="item">
+           <div class="image">
+            <img [src]="imagePath" style="width: 40px;">
+           </div>
+           <div> <h5 class="card-title" [textContent]="name" ></h5></div>
+          
+					<div class="qty">
+                                    <button pan class="minus" (click)="decrement()">-</button>
+                                    <h1 type="number" [textContent]="quantity" class="count" name="qty" value="1"></h1>
+                                    <button class="plus" (click)="increment()">+</button>
+                                </div>
+
+          <div style="width: 120px;"> <p class="card-text" [textContent]="price"> <p>   $/kg<p> </p></div>
+          <div style="width: 120px;"> <p class="card-text" [textContent]="total"> <p>   $ Total<p> </p></div>
+
+    </div>
+

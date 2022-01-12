@@ -1,0 +1,28 @@
+.btn-primary{
+      background-color: #f78317;
+      border-color: #f78317;
+      margin: 15px;
+
+}
+.btn-primary:hover{
+      background-color: #8ab854;
+      border-color: #8ab854;
+}
+.btn:focus, .btn:active {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+.card{
+      margin: 15px;
+      height: 25s0px;
+}
+.card-text{
+      font-weight: 600;
+}
+p{
+      display: inline;
+      
+}
+img{
+      margin-bottom: 10px;
+}

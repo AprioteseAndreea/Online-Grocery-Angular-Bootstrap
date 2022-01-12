@@ -1,0 +1,111 @@
+.login-card {
+      box-shadow: 0 4px 8px 0 #F3A12D;
+      width: 40vw;
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    #username{
+      background-image: url('../../../assets/user.svg');
+      background-repeat: no-repeat;
+      background-position: 8px 10px;
+    }
+    #password{
+      background-image: url('../../../assets/lock.svg');
+      background-repeat: no-repeat;
+      background-position: 8px 10px;
+    }
+    label {
+      display: block;
+      margin-bottom: .5rem;
+      font: normal normal 600 16px/27px "Nunito";
+      color: #F3A12D ;
+    }
+    input{
+      color: #210837;
+      border-radius: 3px;
+      padding: 5px 30px;
+      font: normal normal 500 16px/27px "Nunito";
+    }
+    .form-control{
+      width: 30vw;
+      height:40px;
+      border: 1px solid rgb(138, 184, 84);
+      background: #FFFFFF 0 0 no-repeat padding-box;
+    }
+    .form-group{
+      font: normal normal  14px/21px "Nunito";
+      padding: 25px;
+      letter-spacing: 0;
+      color: #210837;
+      opacity: 1;
+      display: flex;
+      justify-content: center;
+    }
+    .form-container{
+      margin-top: 50px;
+    }
+    .credentials{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+    }
+    .create-account{
+      display: flex;
+      justify-content: center;
+      width: 30vw;
+      padding-top: 15px;
+      font: normal normal  16px/21px "Nunito";
+      color: brown;
+      margin-bottom: 20px;
+    
+    }
+    #second-child {
+      margin-left: 5px;
+      font: normal 600 16px/21px "Nunito";
+      color:#F3A12D ;
+    
+    }
+    .close-button{
+      padding-top: 20px;
+      display: flex; justify-content: flex-end;
+     }
+    .login-card:hover {
+      box-shadow: 0 8px 16px 0 rgb(138, 184, 84);
+    }
+    .logo-container{
+      margin-top: 30px;
+      display: flex; justify-content: center;
+    }
+    .logo{
+      width: 20vw;
+    }
+    .container {
+      padding: 2px 16px;
+      overflow:auto;
+    }
+    .login-button{
+      display: flex; justify-content: center;
+    }
+    .btn{
+      background: rgb(138, 184, 84) 0 0 no-repeat padding-box;
+      border-radius: 5px;
+      border: 0;
+      padding: 5px 50px;
+      width: 25vw;
+      margin-top: 50px;
+      font: normal normal 600 16px/27px "Nunito";
+      letter-spacing: 0;
+      color: white;
+      text-transform: uppercase;
+      opacity: 1;
+      cursor: pointer;
+    }

@@ -1,0 +1,90 @@
+.card{
+      margin-top: 40px;
+}
+
+.products{
+      display: flex;
+      flex-direction: column;
+     padding: 10px;
+}
+.btn-primary{
+  background-color: #F3A12D;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 30px;
+  margin-bottom: 20px;
+  
+}
+.btn-primary:hover{
+  background-color: #8ab854;
+  border-color: #8ab854;
+}
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.container {
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .card{
+          margin-top: 40px;
+         
+    }
+    .right-elements {
+      float: right;
+      padding-top: 70px;
+    }
+    .left-elements {
+      float: left;
+      font-family: 'Nunito', sans-serif;
+      padding-top: 20px;
+    }
+    .reserv-form{
+      background: #ffffff; 
+	    border: solid #8ab854 1px; 
+      border-radius: 20px;
+      margin-bottom: 20px;
+        
+}
+#title{
+  font-family: 'Nunito', sans-serif;
+  color: #c71d34;
+  font-size: 18px;
+  font-weight: 600;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-group{
+  font: normal normal  14px/21px 'Nunito';
+  padding: 15px;
+  padding-bottom: 5px;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+}
+.form-row{
+      display: flex;
+      justify-content: space-between;
+}
+label{
+      font-size: 15px;
+      padding-bottom: 5px;
+      color: #8ab854;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+}
+input{
+      font-family: 'Nunito', sans-serif;
+}
+    
+    .image {
+      height: 300px;
+    }
+   
+    

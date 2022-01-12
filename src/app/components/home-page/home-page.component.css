@@ -1,0 +1,42 @@
+.container {
+      padding-top: 70px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .card{
+          margin-top: 40px;
+         
+    }
+    .right-elements {
+      float: right;
+      padding-top: 70px;
+    }
+    .left-elements {
+      float: left;
+      font-family: 'Nunito', sans-serif;
+      padding-top: 70px;
+    }
+    
+    #text{
+      font-size: 16px;
+      color: #ca505c;
+      font-weight: 500;
+    }
+    #online-word{
+          font-size: 60px;
+          color: #F3A12D;
+          font-weight: 600;
+    }
+    .btn-primary{
+          background-color: #ca505c;
+          border: none;
+          border-radius: 25px;
+          padding: 8px 30px;
+          
+    }
+    .image {
+      width: min-content;
+      height: 70%;
+    }
+   
+    

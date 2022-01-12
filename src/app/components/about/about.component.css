@@ -1,0 +1,65 @@
+
+google-map{
+      height:500px;
+      width:40%;
+}
+.pin{
+      height: 30px;
+}
+.address{
+      display: flex;
+      justify-content: flex-start;
+}
+.btn-primary:hover{
+      background-color: #8ab854;
+      border-color: #8ab854;
+}
+.btn:focus, .btn:active {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+#online-word{
+      font-family: 'Nunito', sans-serif;
+      color: #F3A12D;
+      font-weight: 600;
+      padding-left: 10px;
+      font-size: 20px;
+}
+
+textarea{
+      margin-top: 40px;
+}
+.sendFeedbackButton{
+      margin-top: 20px;
+}
+.btn-primary{
+      background-color: #ca505c;
+      border: none;
+      border-radius: 25px;
+      padding: 8px 30px;
+      font-family: 'Nunito', sans-serif;
+
+}
+.container {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .card{
+          margin-top: 40px;
+         
+    }
+    .right-elements {
+      float: right;
+      padding-top: 70px;
+    }
+    .left-elements {
+      float: left;
+      font-family: 'Nunito', sans-serif;
+      padding-top: 70px;
+    }
+    
+  
+
+   
+    

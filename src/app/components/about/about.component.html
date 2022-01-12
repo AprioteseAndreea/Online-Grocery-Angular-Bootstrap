@@ -1,0 +1,47 @@
+<!-- <div class="container">
+      <div class="right">
+            <google-map
+            height="500px"
+              width="40%"
+              [zoom]="zoom"
+              [center]="center"
+              [options]="options"></google-map> 
+      </div>
+      <div class="left">
+\      </div>
+</div> -->
+<div class="container card">
+      <div class="card-body">
+            <div class="left-elements">
+                  <div class="address">
+                        <img class="pin" src="../../../assets/pin.png">
+                        <p id="online-word">226 Newark Ave, Jersey City, NJ 07302, Statele Unite ale Americii</p>
+                  </div>
+                  <div class="address">
+                        <img class="pin" src="../../../assets/fb.png">
+                        <p id="online-word">Grocery Store New York</p>
+                  </div> <div class="address">
+                        <img class="pin" src="../../../assets/instagram.png">
+                        <p id="online-word">egrocery</p>
+                  </div>
+                  <div class="address">
+                              <textarea rows="4" cols="50" placeholder="Your feedback here ..."></textarea>
+                  </div>
+                  <div class="sendFeedbackButton">
+                        <button type="button" class="btn btn-primary" >SEND FEEDBACK</button>
+
+                  </div>
+                  <br><br>
+           
+            </div>
+             <div class="right-elements">
+                  <google-map
+                    [center]="center">
+                  <map-marker  [position]="marker.position"></map-marker>
+            </google-map> 
+             </div>
+          </div>
+     
+    </div>
+
+

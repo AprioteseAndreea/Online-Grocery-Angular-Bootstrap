@@ -1,0 +1,49 @@
+<div class="container card">
+      <div class="card-body">
+            <div class="left-elements">
+                  <div class=" products " >
+                        <div> <button type="button" class="btn btn-primary" (click)="resetCart()">Reset cart</button>
+                        </div>
+                        <div  *ngFor="let p of items">
+                         <app-cart-card (incrementEvent)="incrementTotal($event)" (decrementEvent)="decrementTotal($event)" [name]="p.name" [price]="p.price" [imagePath]="p.imagePath" [total]="p.price" [quantity]="p.quantity" ></app-cart-card>
+                        </div>
+                   
+                   </div>
+                   <div style="display: flex; justify-content:flex-start ;">
+                         <div> <h3 style="padding-left: 10px; padding-right: 10px;">Total:  </h3></div>
+                         <div> <h3 [textContent]="totalCost"> </h3></div>
+                         <h3>$</h3>
+                   </div>
+            </div>
+             <div class="right-elements">
+                  <p id="title">Fill in the address where you want your products delivered</p>
+                  <div class="reserv-form">
+                        <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">NAME *</label>
+                                <input type="text" class="form-control"  placeholder="John Smith">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">PHONE *</label>
+                                <input type="email" class="form-control"  placeholder="800 2345679">
+                        </div>
+                        </div>
+                        
+                            <div class="form-group">
+                              <label for="inputAddress2">ADDRESS</label>
+                              <input type="tel" class="form-control"  placeholder="38 W 32nd St, New York, NY 10001, Statele Unite ale Americii">
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress2">OTHER DETAILS *</label>
+                              <input type="text" class="form-control"  placeholder="">
+                            </div>
+                            <div class="button">
+                              <button type="submit" class="btn btn-primary">SUBMIT</button>
+                            </div>
+                        </div>
+                  <img class="image" src="../assets/online-grocery.png">
+
+             </div>
+          </div>
+     
+    </div>
