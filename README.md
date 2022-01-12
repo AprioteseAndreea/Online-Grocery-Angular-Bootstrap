@@ -1,27 +1,10 @@
-# OnlineGrocery
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+![image](https://user-images.githubusercontent.com/79917865/149205846-e2140225-50e4-4b03-af56-eb1b854cefc0.png)
+![image](https://user-images.githubusercontent.com/79917865/149205899-03106dc1-3fb6-40dc-8f86-dea077834d61.png)
+![image](https://user-images.githubusercontent.com/79917865/149205967-c76279f2-37ab-4c2e-a402-93d356cfae50.png)
+![image](https://user-images.githubusercontent.com/79917865/149205991-372d402c-c345-4049-aea5-55fce9a08bd2.png)
+![image](https://user-images.githubusercontent.com/79917865/149206010-75b4f476-d588-48d9-a45f-76c6bf913c78.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
